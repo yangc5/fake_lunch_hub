@@ -9,8 +9,8 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
     }).state('groups', {
       url: '/groups',
       templateUrl: 'app/components/groups.html',
-      controller: 'GroupController',
-      controllerAs: 'groups'
+      controller: 'GroupsController',
+      controllerAs: 'groupsController'
     });
 
   $urlRouterProvider.otherwise('/');
